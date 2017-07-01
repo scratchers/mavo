@@ -1,0 +1,14 @@
+{
+	"firstName": "Jeff",
+	"last_name": "Puckett",
+	"content": "\nThis is a test of mavo.\n\nhttps://mavo.io\n",
+	"hobby": [
+		"Eating"
+	],
+	"pet": [
+		{
+			"name": "Adam Catlace",
+			"birthday": "2014-06-01"
+		}
+	]
+}
