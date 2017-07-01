@@ -16,17 +16,12 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <div mv-app="commentform" mv-storage="local" mv-autosave="0">
-            <label>
-                Email:
-                <input type="email" property="email" value="foo@bar.com" />
-            </label>
-            <label>
-                Message:
-                <textarea property="message">
-                    Edit the form and notice how the values persist after you refresh!
-                </textarea>
-            </label>
+        <div mv-app="nameDemo" mv-storage="local">
+            Name:
+            <span property="firstName">Lea</span>
+            <span property="last_name">Verou</span>
+
+            <div property="content">Some content and then some other.</div>
         </div>
     </body>
 </html>
